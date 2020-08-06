@@ -1,3 +1,6 @@
-# DSF-Discord-Bot
-Daily Stupid Facts Robot for Discord Servers  
-Invite Link: https://discord.com/oauth2/authorize?client_id=733410082607333536&permissions=775945664&scope=bot
+## John-Bot
+#A Discord bot to play the game of John.
+ 
+Status: In Progress
+ 
+Invite Link: https://discord.com/oauth2/ (to be filled in)
