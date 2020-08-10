@@ -53,7 +53,8 @@ var addPlayerPoints = function (user, cmdList) {
 }
 
 var findPerson = function (user, name) {
-
+    let game = gameHandler.findGame(user)
+    return game.players.find(x => x.name === name) // TODO check property
 }
 
 var endGame = function (user) {
@@ -99,4 +100,8 @@ var handle = function (user, cmdList) {
         editInventory(user, cmdList)
         break
     }
+}
+
+module.exports = {
+    handleCommand: handle
 }
